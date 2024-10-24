@@ -1,9 +1,9 @@
 function Footer() {
-    return (<div className="row text-center bg-black bottom" style={{height:"50px"}}>
-        <div className="col-12 col-md-6 col-lg-12">
-            <span className=" text-white text-center">Developed by @ Mamta Patil</span>
+    return (
+        <div className="footer fixed-bottom d-flex justify-content-center align-items-center bg-black" style={{ height: "50px" }}>
+            <span className="text-white">Developed by @ Mamta Patil</span>
         </div>
-    </div>);
+    );
 }
 
 export default Footer;
